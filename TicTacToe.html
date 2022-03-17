@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <h1> TicTacToe</h1>
-</head>
 
-<body>
-    <p id="lID"></p>
+
+<head>
+
     <style>
+        button {
+            width: 100%;
+            height: 200px;
+        }
+        
+        td {
+            width: 30%;
+            height: 100%;
+        }
+        
         table,
         th,
         td {
             border: 1px solid black;
         }
     </style>
+</head>
 
-    <table style="width: 50%;">
+
+
+
+<body>
+    <p id="lID"></p>
+
+
+
+
+    <table style="width: 100%;">
+        <!-- <tr style="height:200px;">
+-->
         <tr style="height:200px;">
-            <td <button id="1" type="cursor" onclick="fillButton('1')">
-                </button>
+            <td width="33%">
+                <button id="1" onclick="fillButton('1')">
             </td>
-            <td <button id="2" type="cursor" onclick="fillButton('2')">
-                </button>
+            <td width="33%"><button id="2" type="cursor" onclick="fillButton('2')">
+</button>
             </td>
-            <td <button id="3" type="cursor" onclick="fillButton('3')">
-                </button>
+            <td width="33%"><button id="3" type="cursor" onclick="fillButton('3')">
+</button>
             </td>
         </tr>
         <tr style="height:200px;">
-            <td <button id="4" type="cursor" onclick="fillButton('4')">
-                </button>
+            <td><button id="4" type="cursor" onclick="fillButton('4')">
+</button>
             </td>
-            <td <button id="5" type="cursor" onclick="fillButton('5')">
-                </button>
+            <td><button id="5" type="cursor" onclick="fillButton('5')">
+</button>
             </td>
-            <td <button id="6" type="cursor" onclick="fillButton('6')">
-                </button>
+            <td><button id="6" type="cursor" onclick="fillButton('6')">
+</button>
             </td>
         </tr>
         <tr style="height:200px;">
-            <td <button id="7" type="cursor" onclick="fillButton('7')">
-                </button>
+            <td><button id="7" type="cursor" onclick="fillButton('7')">
+</button>
             </td>
-            <td <button id="8" type="cursor" onclick="fillButton('8')">
-                </button>
+            <td><button id="8" type="cursor" onclick="fillButton('8')">
+</button>
             </td>
-            <td <button id="9" type="cursor" onclick="fillButton('9')">
-                </button>
+            <td><button id="9" type="cursor" onclick="fillButton('9')">
+</button>
             </td>
         </tr>
+
+
 
     </table>
     <script src="TicTacToe.js"></script>
 
+
+
 </body>
+
+
 
 </html>
