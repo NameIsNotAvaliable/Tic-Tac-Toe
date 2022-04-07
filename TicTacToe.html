@@ -1,81 +1,82 @@
 <!DOCTYPE html>
 <html>
 
+
+
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+	
     <style>
         button {
-            width: 31vw;
-            height: 31vw;
+            width: 100%;
+            height: 200px;
         }
-
+        
         td {
-            width: 32vw;
+            width: 30%;
+            height: 100%;
         }
-
+        
         table,
         th,
         td {
             border: 1px solid black;
         }
-
-        tr {
-            height: 32vw;
-        }
     </style>
 </head>
+
+
+
+
 <body>
+    <p id="lID"></p>
+
+
+
+
     <table style="width: 100%;">
-        <tr ">
+        <!-- <tr style="height:200px;">
+-->
+        <tr style="height:200px;">
             <td>
-                <button id="1" onclick="fillButton('1')">
-                </button>
+			<button id="1" onclick="fillButton('1')">
             </td>
-            <td>
-                <button id="2" onclick="fillButton('2')">
-                </button>
+</button>
+            <td><button id="2" onclick="fillButton('2')">
+</button>
             </td>
-            <td>
-                <button id="3" onclick="fillButton('3')">
-                </button>
-            </td>
-        </tr>
-        <tr">
-            <td>
-                <button id="4" onclick="fillButton('4')">
-                </button>
-            </td>
-            <td>
-                <button id="5" onclick="fillButton('5')">
-                </button>
-            </td>
-            <td>
-                <button id="6" onclick="fillButton('6')">
-                </button>
+            <td width="33%"><button id="3" onclick="fillButton('3')">
+</button>
             </td>
         </tr>
-        <tr">
-            <td>
-                <button id="7" onclick="fillButton('7')">
-                </button>
+        <tr style="height:200px;">
+            <td><button id="4" onclick="fillButton('4')">
+</button>
             </td>
-            <td>
-                <button id="8" onclick="fillButton('8')">
-                </button>
+            <td><button id="5" onclick="fillButton('5')">
+</button>
             </td>
-            <td>
-                <button id="9" onclick="fillButton('9')">
-                </button>
+            <td><button id="6" onclick="fillButton('6')">
+</button>
             </td>
         </tr>
+        <tr style="height:200px;">
+            <td><button id="7" onclick="fillButton('7')">
+</button>
+            </td>
+            <td><button id="8" onclick="fillButton('8')">
+</button>
+            </td>
+            <td><button id="9" onclick="fillButton('9')">
+</button>
+            </td>
+        </tr>
+
+
+
     </table>
-    <script src="TicTacToe.js"></script>
-
-
-
+	
+<script src="TicTacToe.js"> </script>
+<button onClick="window.location.reload();">Refresh Page</button>
 </body>
 
-
-
 </html>
-
