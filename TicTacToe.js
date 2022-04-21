@@ -20,7 +20,7 @@ function fillButton(lID) {
 		if((wX & 146) ==146) {alert ("X WON");location.reload()};
 		if((wX & 292) ==292) {alert ("X WON");location.reload()};
 		if((wX & 273) ==273) {alert ("X WON");location.reload()};
-		if((wX & 84) ==84) {alert ("X WON");location.reload()};
+		if((wX & 84) ==84) {alert ("X WON"); location.reload()};
 		
 		
     } else {
